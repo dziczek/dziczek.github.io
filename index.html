@@ -2,13 +2,15 @@
 <html>
   <head>
     <title>dziczek.github.io</title>
+    <script src="https://cdn.szurek.local/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.szurek.local/highlight.min.js"></script>
   </head>
   <body>
     <h1>Hello World</h1>
     <p>I'm hosted with GitHub Pages.</p>
   </body>
   <script>
-    $.getJSON("https://cors.szurek.local/?cors=1", function(json) {
+    $.getJSON("https://cors.szurek.local/10/?cors=1", function(json) {
         alert(`sekret to ${json['sekret']}.`);
     });
   </script>
